@@ -117,6 +117,11 @@ public struct Relationship: Codable, Equatable {
       http://schemas.microsoft.com/office/2017/10/relationships/\
       person
       """
+    case workbookmetadata =
+      """
+      http://customschemas.google.com/relationships/\
+      workbookmetadata
+      """
   }
 
   /// The identifier for this entity.
